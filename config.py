@@ -6,3 +6,8 @@ PROJECT_ROOT_PATH = os.path.dirname(__file__)
 PROJECT_DATA_PATH = PROJECT_ROOT_PATH + "/data/"
 PROJECT_MINING_PATH = PROJECT_ROOT_PATH + "/data/mining/"
 HH_VACANCIES_ENDPOINT = "https://api.hh.ru/vacancies"
+
+EMAIL_CREDENTIALS = {
+    "email": "<почтовый адрес>",
+    "password": "<пароль>"
+}
